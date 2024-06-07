@@ -45,7 +45,7 @@
         <a class="nav-link" href="/logout">Logout</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/oredr">Order</a>
+        <a class="nav-link" href="/order">Order</a>
       </li>
       {% else %}
       <li class="nav-item">
@@ -56,7 +56,8 @@
       </li>
       {% endif %}
       <li class="nav-item">
-        <a class="nav-link" href="/cart">Cart</a>
+        <a class="nav-link" href="/cart">Cart
+        <span class="badge badge-info">{{request.session.cart.keys|length}}</span></a>
       </li>
     </ul>
   </div>
