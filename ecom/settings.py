@@ -126,3 +126,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Added Manually
 MEDIA_ROOT=BASE_DIR
 MEDIA_URL="/media/"
+# Razor Pay
+razor_pay_key_id = "rzp_test_bafQVCSuYz9I1A"
+key_Secret = "RF5Lq3PFq7KDZGDDbfbRZ8ji"
